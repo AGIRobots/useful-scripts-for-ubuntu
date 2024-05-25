@@ -16,3 +16,4 @@ sudo ./set_static_ip.sh wlan0 192.168.3.30/24 192.168.3.1 8.8.8.8,8.8.4.4
 <interface> <static_ip/cidr> <gateway> <dns1,dns2>
 ```
 です。
+これを実行すると、${INTERFACE}-netcfg.yamlという名前の設定ファイルが、/etc/netplanの直下に作成されます。INTERFACE名が同じ場合は、ファイルが上書きされますので注意してください。
