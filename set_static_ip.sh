@@ -25,6 +25,7 @@ network:
   version: 2
   ethernets:
     $INTERFACE:
+      optional: true
       dhcp4: no
       dhcp6: no
       addresses: [$STATIC_IP_CIDR]
